@@ -1,0 +1,52 @@
+@font-face {
+    font-family: PlusJakartaSans_Regular;
+    src: url(../../fonts/PlusJakartaSans/static/PlusJakartaSans-Regular.ttf);
+}
+
+.navcontainer{
+    height: 10vh;
+    width: 100vw;
+    background-color: #FAFAFA;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.navcontainer h6{
+    font-size: .8vw;
+    font-weight: 200;
+    font-family: PlusJakartaSans_Regular;
+
+    background: linear-gradient(to right, #C10FC8, #392EEB);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .navcontainer{
+        height: 9vh;
+        width: 100vw;
+        background-color: #fafafa;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .navcontainer h6{
+        font-size: 3vw;
+        font-weight: 200;
+        font-family: PlusJakartaSans_Regular;
+    
+        background: linear-gradient(to right, #C10FC8, #392EEB);
+        -webkit-background-clip: text;
+        color: transparent;
+        display: inline-block;
+    }
+
+}

@@ -1,0 +1,197 @@
+@font-face {
+    font-family: PlusJakartaSans_Regular;
+    src: url(../../fonts/PlusJakartaSans/static/PlusJakartaSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: PlusJakartaSans_Semibold;
+    src: url(../../fonts/PlusJakartaSans/static/PlusJakartaSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: PlusJakartaSans_ExtraBold;
+    src: url(../../fonts/PlusJakartaSans/static/PlusJakartaSans-ExtraBold.ttf);
+}
+
+.aboutconatainer{
+    height: 80vh;
+    width: 100vw;
+    /* background-color: rgb(255, 230, 230); */
+}
+
+.mecontainer{
+    height: 15vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    padding: 0vw 8vw;
+    margin: 0;
+}
+
+.mecontainer h6{
+    font-family: PlusJakartaSans_Semibold;
+    font-size: 1.7vw;
+    margin: 0;
+}
+
+.aboutmain{
+    height: calc(80vh - 15vh);
+    width: 100vw;
+
+    display: flex;
+}
+
+.dpanddetail{
+    height: calc(80vh - 15vh);
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.dpanddetail img{
+    margin-left: 8vw;
+    width: 28vw;
+}
+
+.detail{
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    gap: .4vw;
+}
+
+.detail h5{
+    margin: 0;
+    font-family: PlusJakartaSans_ExtraBold;
+    font-size: 2vw;
+}
+
+.detail h6{
+    margin: 0;
+    font-family: PlusJakartaSans_Semibold;
+    font-size: 1.2vw;
+    color: rgb(206, 206, 206);
+}
+
+.description{
+    height: calc(80vh - 15vh);
+    width: 50vw;
+    /* background-color: blue; */
+}
+
+.description h5{
+    margin: 0;
+    width: 39vw;
+    font-size: 2.4vw;
+}
+
+.description h4{
+    margin: 0;
+    margin-top: 2vw;
+    width: 39vw;
+    font-size: 1.5vw;
+    color: rgb(206, 206, 206);
+}
+
+@media only screen and (max-width: 600px) {
+
+	.aboutconatainer{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .mecontainer{
+        height: 10vh;
+        width: 100vw;
+        margin: 0;
+
+        display: flex;
+        /* justify-content: center; */
+
+        /* background-color: red; */
+    }
+
+    .mecontainer h6{
+        font-family: PlusJakartaSans_Semibold;
+        font-size: 7vw;
+        margin: 0;
+    }
+
+    .aboutmain{
+        height: calc(80vh - 15vh);
+        width: 100vw;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dpanddetail{
+        height: calc(80vh - 15vh);
+        width: 100vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+
+    .dpanddetail img{
+        /* margin-left: 8vw; */
+        width: 80vw;
+    }
+
+    .detail{
+        /* margin-left: 10vw; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        flex-direction: column;
+        gap: 1vw;
+    }
+
+    .detail h5{
+        margin: 0;
+        font-family: PlusJakartaSans_ExtraBold;
+        font-size: 7vw;
+    }
+
+    .detail h6{
+        margin: 0;
+        font-family: PlusJakartaSans_Semibold;
+        font-size: 4vw;
+        color: rgb(163, 163, 163);
+    }
+
+    .description{
+        height: calc(80vh - 15vh);
+        width: 100vw;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 9vw;
+        /* background-color: blue; */
+    }
+
+    .description h5{
+        margin: 0;
+        width: 85vw;
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    .description h4{
+        margin: 0;
+        margin-top: 2vw;
+        width: 90vw;
+        font-size: 3vw;
+        text-align: center;
+        color: rgb(187, 187, 187);
+    }
+    
+
+}

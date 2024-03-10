@@ -1,0 +1,208 @@
+@font-face {
+    font-family: PlusJakartaSans_Regular;
+    src: url(../../fonts/PlusJakartaSans/static/PlusJakartaSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: PlusJakartaSans_Semibold;
+    src: url(../../fonts/PlusJakartaSans/static/PlusJakartaSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: PlusJakartaSans_ExtraBold;
+    src: url(../../fonts/PlusJakartaSans/static/PlusJakartaSans-ExtraBold.ttf);
+}
+
+.headercontainer{
+    height: 90vh;
+    width: 100vw;
+    background-color: #fafafa;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10vw;
+
+    position: relative;
+}
+
+.maintext{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+
+.headercontainer h5{
+    font-family: PlusJakartaSans_Semibold;
+    width: 60vw;
+    text-align: center;
+    font-size: 2vw;
+
+    margin: 0;
+}
+
+.headercontainer h5 span{
+    font-family: PlusJakartaSans_ExtraBold;
+    background: linear-gradient(to right, #C10FC8, #392EEB);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.headercontainer h6{
+    font-family: PlusJakartaSans_Regular;
+    text-align: center;
+    font-size: 1.7vw;
+    font-weight: 100;
+
+    margin: 0;
+}
+
+.uiux_represent_img{
+    width: 13vw;
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    border-top-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+}
+
+.branding_represent_img{
+    width: 12vw;
+
+    position: absolute;
+    bottom: 2vw;
+    right: 7vw;
+}
+
+.meaningcontainer{
+    width: 100vw;
+    /* background-color: rgb(255, 237, 237); */
+    font-weight: 800;
+}
+
+.meaningcontainer h4{
+    font-family: PlusJakartaSans_Semibold;
+}
+
+.meaningcontainer h4::before {
+    content: '\2022'; /* Unicode character for a bullet point */
+    display: inline-block;
+    margin-right: 8px; /* Adjust the spacing as needed */
+    background: linear-gradient(to right, #C10FC8, #392EEB);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+.meaningcontainer h3{
+    font-family: PlusJakartaSans_Regular;
+    font-weight: 100;
+}
+
+.meaning{
+    margin-left: 7vw;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .headercontainer{
+        height: 90vh;
+        width: 100vw;
+        background-color: #fafafa;
+    
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10vw;
+    
+        position: relative;
+    }
+
+    .maintext{
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+    }  
+
+    .headercontainer h5{
+        font-family: PlusJakartaSans_Semibold;
+        width: 60vw;
+        text-align: start;
+        font-size: 5vw;
+    
+        margin: 0;
+        margin-left: 10vw;
+    }
+
+    .headercontainer h5 span{
+        font-family: PlusJakartaSans_ExtraBold;
+        background: linear-gradient(to right, #C10FC8, #392EEB);
+        -webkit-background-clip: text;
+        color: transparent;
+        display: inline-block;
+    }
+
+    .headercontainer h6{
+        font-family: PlusJakartaSans_Regular;
+        text-align: start;
+        font-size: 3.4vw;
+        font-weight: 100;
+        padding: 0vw 10vw;
+    
+        margin: 0;
+    }
+
+    .uiux_represent_img{
+        width: 35vw;
+        position: absolute;
+        top: 5vh;
+        left: 10vw;
+        border-top-left-radius: 8vw;
+        border-bottom-right-radius: 8vw;
+    }
+
+    .branding_represent_img{
+        width: 40vw;
+    
+        position: absolute;
+        bottom: 2vw;
+        right: 7vw;
+    }
+    
+    .meaningcontainer{
+        width: 100vw;
+        padding: 0vw 3vw;
+        display: none;
+    }
+
+    .meaningcontainer h4{
+        font-family: PlusJakartaSans_Semibold;
+        font-size: 4vw;
+    }
+
+    .meaningcontainer h4::before {
+        content: '\2022'; /* Unicode character for a bullet point */
+        display: inline-block;
+        margin-right: 8px; /* Adjust the spacing as needed */
+        background: linear-gradient(to right, #C10FC8, #392EEB);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    .meaningcontainer h3{
+        font-family: PlusJakartaSans_Regular;
+        font-weight: 100;
+        font-size: 4vw;
+    }
+    
+    .meaning{
+        display: flex;
+        flex-direction: column;
+        /* gap: 0vw; */
+        /* margin: 0; */
+    }
+
+}
