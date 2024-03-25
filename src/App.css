@@ -1,6 +1,6 @@
 @font-face {
   font-family: PlusJakartaSans_Regular;
-  src: url(../../fonts/PlusJakartaSans/static/PlusJakartaSans-Regular.ttf);
+  src: url(../src//fonts/PlusJakartaSans/PlusJakartaSans-VariableFont_wght.ttf);
 }
 
 *{
@@ -8,4 +8,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: PlusJakartaSans_Regular;
+}
+
+body, html{
+  height: 100%;
+  width: 100%;
+}
+
+.main{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }

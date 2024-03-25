@@ -1,0 +1,43 @@
+.designationcontainer{
+    height: 120vh;
+    width: 100vw;
+    background-color: rgb(234, 234, 255);
+}
+
+.headingofdsgn{
+    height: 25vh;
+    width: 100vw;
+    /* background-color: ; */
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.headingofdsgn h4{ 
+    margin-left: 10vw;
+    font-size: 1.4vw;
+}
+
+.edesignationcon{
+    height: calc(120vh - 25vh);
+    width: 100vw;
+    background-color: red;
+
+    display: flex;
+    flex-direction: column;
+    /* gap: 2vh; */
+}
+
+.exactdesignations{
+    height: 31vh;
+    width: 100vw;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+}
+
+.exactdesignations h2{
+    font-size: 1.5vw;
+}
+
