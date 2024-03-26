@@ -12,15 +12,15 @@ const Designations = () => {
         <div className="edesignationcon">
 
             <div className="exactdesignations">
-                <h2> <span>Brand Indentity</span> <br/> Designing </h2>
+                <h2> <span>Brand Identity</span> <br/> Designing </h2>
             </div>
 
             <div className="exactdesignations">
-                <h2> <span>Brand Indentity</span> <br/> Designing </h2>
+                <h2> <span> UI/UX  </span> <br/> Designing </h2>
             </div>
 
             <div className="exactdesignations">
-                <h2> <span>Brand Indentity</span> <br/> Designing </h2>
+                <h2> <span> Frontend </span> <br/> Web Development </h2>
             </div>
 
         </div>

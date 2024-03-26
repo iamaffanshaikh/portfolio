@@ -3,6 +3,11 @@
   src: url(../src//fonts/PlusJakartaSans/PlusJakartaSans-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: PlusJakartaSans_Extrabold;
+  src: url(../src//fonts/PlusJakartaSans/static/PlusJakartaSans-ExtraBold.ttf);
+}
+
 *{
   margin: 0;
   padding: 0;

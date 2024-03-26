@@ -1,0 +1,13 @@
+.morderndcontainer{
+    height: 40vh;
+    width: 100vw;
+    background-color: red;
+    overflow: hidden;
+    background-image: url(../../static/images/moderndesignsbg.jpg);
+    background-position: center;
+    background-size: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

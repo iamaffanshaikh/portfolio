@@ -1,13 +1,11 @@
 .designationcontainer{
-    height: 120vh;
+    height: 130vh;
     width: 100vw;
-    background-color: rgb(234, 234, 255);
 }
 
 .headingofdsgn{
     height: 25vh;
     width: 100vw;
-    /* background-color: ; */
 
     display: flex;
     align-items: center;
@@ -22,22 +20,36 @@
 .edesignationcon{
     height: calc(120vh - 25vh);
     width: 100vw;
-    background-color: red;
 
     display: flex;
     flex-direction: column;
-    /* gap: 2vh; */
+    justify-content: space-between;
 }
 
 .exactdesignations{
     height: 31vh;
     width: 100vw;
-    background-color: blue;
     display: flex;
     align-items: center;
+    padding: 0vw 10vw; 
 }
 
 .exactdesignations h2{
-    font-size: 1.5vw;
+    font-family: PlusJakartaSans_Extrabold;
+    font-size: 4.3vw;
 }
 
+.exactdesignations h2 span {
+    font-family: PlusJakartaSans_Extrabold;
+    opacity: 40%;
+    font-size: 4vw;
+}
+
+.exactdesignations:nth-child(2){
+    display: flex;
+    justify-content: end;
+}
+
+.exactdesignations:nth-child(2) h2{
+    text-align: end;
+}
